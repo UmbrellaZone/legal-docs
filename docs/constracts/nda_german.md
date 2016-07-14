@@ -8,7 +8,7 @@ und
 
 {{party02}}
 
-##Präambel
+## Präambel
 
 Die Vertragspartner beabsichtigen, auf dem Gebiet „{{interest}}’’ zusammenzuarbeiten. Im Vorfeld einer Zusammenarbeit kann es erforderlich sein, dass sich die Vertragspartner vertrauliche Informationen offenbaren. Diese sollen zum Schutz des jeweiligen Vertragspartners einer generellen Vertraulichkeit unterliegen. Die Vereinbarung gilt auch für den Fall, dass es nicht zu der geplanten Zusammenarbeit kommt.
 
