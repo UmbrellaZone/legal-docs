@@ -4,9 +4,6 @@
   "description": "legal docs for prgrammatic use",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "test": "(npmts)"
   },
