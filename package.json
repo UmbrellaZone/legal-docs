@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "legal docs for prgrammatic use",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "directories": {
     "doc": "docs"
   },
