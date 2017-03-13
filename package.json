@@ -1,0 +1,22 @@
+{
+  "name": "legaldocs",
+  "version": "1.0.0",
+  "description": "legal docs for prgrammatic use",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/pkunz/legaldocs.git"
+  },
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/pkunz/legaldocs/issues"
+  },
+  "homepage": "https://gitlab.com/pkunz/legaldocs#README"
+}
