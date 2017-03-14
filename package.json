@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "(npmts)"
+    "test": "(ts-node --compilerOptions '{\"target\":\"es6\"}' build.ts)"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,7 @@
   "bugs": {
     "url": "https://gitlab.com/pkunz/legaldocs/issues"
   },
-  "homepage": "https://gitlab.com/pkunz/legaldocs#README"
+  "homepage": "https://gitlab.com/pkunz/legaldocs#README",
+  "devDependencies": {},
+  "dependencies": {}
 }
