@@ -18,5 +18,8 @@
   },
   "homepage": "https://gitlab.com/pkunz/legaldocs#README",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "smartfile": "^4.1.8",
+    "typings-global": "^1.0.14"
+  }
 }

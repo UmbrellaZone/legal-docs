@@ -1,8 +1,7 @@
 {
     "npmci": {
         "globalNpmTools": [
-           "ts-node",
-           "typescript"
+           "npmts"
         ]
     }
 }
