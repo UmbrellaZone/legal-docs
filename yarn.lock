@@ -233,9 +233,9 @@ shelljs@^0.7.4:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-smartfile@^4.1.8:
-  version "4.1.8"
-  resolved "https://registry.yarnpkg.com/smartfile/-/smartfile-4.1.8.tgz#4f568537de0cd1174ce3086036ac9df26f860330"
+smartfile@^4.1.9:
+  version "4.1.9"
+  resolved "https://registry.yarnpkg.com/smartfile/-/smartfile-4.1.9.tgz#d789032193a45493607b8b37ff5811942f832008"
   dependencies:
     "@types/fs-extra" "0.x.x"
     "@types/vinyl" "^2.0.0"
