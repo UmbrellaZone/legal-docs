@@ -8,6 +8,10 @@
   dependencies:
     "@types/node" "*"
 
+"@types/mocha@^2.2.31":
+  version "2.2.40"
+  resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-2.2.40.tgz#9811dd800ece544cd84b5b859917bf584a150c4c"
+
 "@types/node@*":
   version "7.0.8"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.8.tgz#25e4dd804b630c916ae671233e6d71f6ce18124a"
@@ -305,12 +309,19 @@ typed-promisify@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/typed-promisify/-/typed-promisify-0.3.0.tgz#1ba0af5e444c87d8047406f18ce49092a1191853"
 
-typings-global@^1.0.14:
+typings-global@*, typings-global@^1.0.14:
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/typings-global/-/typings-global-1.0.14.tgz#ab682720a03d6b9278869fb5c30c30d7dc61d12c"
   dependencies:
     semver "^5.3.0"
     shelljs "^0.7.4"
+
+typings-test@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/typings-test/-/typings-test-1.0.3.tgz#fbab895eb3f0c44842e73db059f65946b971e369"
+  dependencies:
+    "@types/mocha" "^2.2.31"
+    typings-global "*"
 
 util-deprecate@~1.0.1:
   version "1.0.2"

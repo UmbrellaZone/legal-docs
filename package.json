@@ -17,7 +17,9 @@
     "url": "https://gitlab.com/pkunz/legaldocs/issues"
   },
   "homepage": "https://gitlab.com/pkunz/legaldocs#README",
-  "devDependencies": {},
+  "devDependencies": {
+    "typings-test": "^1.0.3"
+  },
   "dependencies": {
     "smartfile": "^4.1.8",
     "smartq": "^1.1.1",

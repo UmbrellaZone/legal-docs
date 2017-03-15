@@ -1,1 +1,1 @@
-export declare let getPrivacyPolicy: () => Promise<void>;
+export declare let getPrivacyPolicy: () => Promise<string>;
