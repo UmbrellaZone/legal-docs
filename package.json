@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "(ts-node --compilerOptions '{\"target\":\"es6\"}' build.ts)"
+    "test": "(npmts)"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "devDependencies": {},
   "dependencies": {
     "smartfile": "^4.1.8",
+    "smartq": "^1.1.1",
     "typings-global": "^1.0.14"
   }
 }
