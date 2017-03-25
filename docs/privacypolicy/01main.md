@@ -1,2 +1,2 @@
 ## Some general notes about this Privacy Policy
-This website (plus all the websites and products {{company.name}} maintains) including its owners take a proactive approach to user privacy and ensure the necessary steps are taken to protect the privacy of its users throughout their visiting experience. We'll refer to all websites and products created and maintained by {{company.name}} as "Our websites and products" from hereon.
+All websites and products we maintain ("we" is the company {{company.name}} and its owners) take a proactive approach to user privacy and ensure the necessary steps are taken to protect the privacy of its users throughout their visiting experience. We'll refer to all those websites and products as "our websites and products" from hereon.
