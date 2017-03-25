@@ -8,3 +8,7 @@ This software is provided by Google Analytics which uses cookies to track visito
 
 Other cookies may be stored to your computers hard drive by external vendors when this website uses referral programs, sponsored links or adverts. Such cookies are used for conversion and referral tracking and typically expire after 30 days, though some may take longer. No personal information is stored, saved or collected.
 {{/if}}
+
+{{#if legal.npmTracking}}
+We also use Google Analytics to track usage of some of our npm packages. The information that is stored does not contain any private information or specific IP information and only serves as an indicator of feature usage.
+{{/if}}
