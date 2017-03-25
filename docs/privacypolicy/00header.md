@@ -1,2 +1,2 @@
 # Privacy Policy
-## for {{company.name}}
+## for {{company.name}} and its websites and products
