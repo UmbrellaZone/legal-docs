@@ -1,9 +1,10 @@
-import 'typings-test'
+import { expect, tap } from 'tapbundle'
+
 import * as legaldocs from '../dist/index'
 
-describe('legaldocs', function () {
-  it('should output privacyPolicy', async function () {
-    let privacyPolicy = await legaldocs.getPrivacyPolicy()
-    console.log(privacyPolicy)
-  })
+tap.test('legaldocs should output privacyPolicy', async () => {
+  let privacyPolicy = await legaldocs.getPrivacyPolicy()
+  console.log(privacyPolicy)
 })
+
+tap.start()

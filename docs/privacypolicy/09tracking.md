@@ -12,3 +12,7 @@ Other cookies may be stored to your computers hard drive by external vendors whe
 {{#if legal.npmTracking}}
 We also use Google Analytics to track usage of some of our npm packages. The information that is stored does not contain any private information or specific IP information and only serves as an indicator of feature usage.
 {{/if}}
+
+{{#if legal.opBeat}}
+We use opbeat to store performance data. This includes anonymized data generated at the client side. The data helps us understand how long our services need to perform a certain transaction.
+{{/if}}
