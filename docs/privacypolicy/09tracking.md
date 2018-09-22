@@ -13,5 +13,5 @@ We also use Google Analytics and our own tracking solution to track usage of som
 {{/if}}
 
 {{#if legal.serviceWorker}}
-We use service workers on our websites to perform background tasks. Those service workers may continue to run after you leave the site and will request notifications that may be shown to you in case you opted in for notifications from that website.
+We use service workers on our websites to perform background tasks. Those service workers may continue to run after you leave the site and may request data from out servers to provide certain funcionality at a later point in time.
 {{/if}}
