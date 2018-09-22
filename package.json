@@ -1,11 +1,13 @@
 {
-  "name": "legaldocs",
+  "name": "@umbrellazone/legaldocs",
   "version": "1.0.4",
-  "description": "legal docs for prgrammatic use",
+  "private": false,
+  "description": "legal docs for programmatic use",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "(npmts)"
+    "test": "tstest test/",
+    "build": "tsbuild"
   },
   "repository": {
     "type": "git",
@@ -18,12 +20,14 @@
   },
   "homepage": "https://gitlab.com/pkunz/legaldocs#README",
   "devDependencies": {
-    "tapbundle": "^1.0.9",
-    "typings-test": "^1.0.3"
+    "@gitzone/tsbuild": "^2.0.22",
+    "@gitzone/tsrun": "^1.1.12",
+    "@gitzone/tstest": "^1.0.15",
+    "@pushrocks/tapbundle": "^3.0.7",
+    "@types/node": "^10.10.3"
   },
   "dependencies": {
-    "smartfile": "^4.1.9",
-    "smartq": "^1.1.1",
-    "typings-global": "^1.0.16"
+    "@pushrocks/smartfile": "^6.0.8",
+    "@pushrocks/smartpromise": "^2.0.5"
   }
 }

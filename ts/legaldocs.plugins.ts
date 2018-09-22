@@ -1,10 +1,5 @@
-import 'typings-global'
-import * as path from 'path'
-import * as smartfile from 'smartfile'
-import * as smartq from 'smartq'
+import * as path from 'path';
+import * as smartfile from '@pushrocks/smartfile';
+import * as smartpromise from '@pushrocks/smartpromise';
 
-export {
-    path,
-    smartfile,
-    smartq
-}
+export { path, smartfile, smartpromise };
