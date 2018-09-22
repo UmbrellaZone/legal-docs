@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@pushrocks/smartfile": "^6.0.8",
-    "@pushrocks/smartpromise": "^2.0.5"
+    "@pushrocks/smartpromise": "^2.0.5",
+    "@tsclass/tsclass": "^2.0.0"
   }
 }
