@@ -1,4 +1,4 @@
-### Shortened Links in Social Media
+## Shortened Links in Social Media
 
 Our websites and products plus its owners may share web links to relevant web pages through their social media platform accounts. Some social media platforms shorten lengthy urls through their social media platform accounts web addresses.
 

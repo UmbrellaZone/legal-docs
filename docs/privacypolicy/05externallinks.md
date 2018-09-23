@@ -1,4 +1,4 @@
-### External Links
+## External Links
 
 Although our websites and products only look to include quality, safe and relevant external links, users are advised to adopt a policy of caution before clicking any external web links mentioned. (External links are clickable text / banner / image links to other websites, similar to; www.websitename.co.uk.)
 

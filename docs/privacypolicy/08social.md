@@ -1,4 +1,4 @@
-### Social Media Platforms
+## Social Media Platforms
 
 Communication, engagement and actions taken through external social media platforms that our websites and products plus its owners participate on are custom to the terms and conditions as well as the privacy policies held with each social media platform respectively.
 

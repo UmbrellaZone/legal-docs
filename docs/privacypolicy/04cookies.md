@@ -1,4 +1,4 @@
-### Use of cookies
+## Use of cookies
 
 Our websites and products (websites and products created and maintained by {{company.name}}) use cookies to better the users experience while visiting Our websites and products. Where applicable those websites use a cookie control system allowing the user on their first visit to the website to allow or disallow the use of cookies on their computer / device. This complies with recent legislation requirements for websites to obtain explicit consent from users before leaving behind or reading files such as cookies on a user's computer / device.
 

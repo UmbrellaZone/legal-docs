@@ -1,4 +1,4 @@
-### Analytics and Tracking
+## Analytics and Tracking
 
 Our websites and products use tracking software to monitor its visitors, users and customers to better understand how they use it.
 

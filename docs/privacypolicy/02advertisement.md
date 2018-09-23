@@ -1,4 +1,4 @@
-### Adverts and Sponsored Links
+## Adverts and Sponsored Links
 
 Our websites and products may contain sponsored links and adverts. These will typically be served through our advertising partners, who may have detailed privacy policies relating directly to the adverts they serve.
 
@@ -6,7 +6,7 @@ Clicking on any such adverts will send you to the advertisers website through a 
 
 {{#if legal.googleAdSense}}
 
-#### Google Adsense
+## Google Adsense
 
 We use Google Adsense to display adverts to you. You can control your AdSense settings and opt-out of personalized Advertisement through Google here: [ Google Ads Settings](https://www.google.com/settings/ads)
 {{/if}}

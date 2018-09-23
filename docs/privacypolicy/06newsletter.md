@@ -1,4 +1,4 @@
-### Email Newsletter
+## Email Newsletter
 
 Our websites and products operate an email newsletter program, used to inform subscribers about products and services supplied by {{company.name}}. Users can subscribe through an online automated process should they wish to do so but do so at their own discretion. Some subscriptions may be manually processed through prior written agreement with the user.
 
