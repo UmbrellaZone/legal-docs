@@ -1,6 +1,6 @@
 {
   "name": "@umbrellazone/legal-docs",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "private": false,
   "description": "legal docs for programmatic use",
   "main": "dist/index.js",
