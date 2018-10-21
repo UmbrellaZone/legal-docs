@@ -9,7 +9,8 @@ export interface IExpectedTemplateData {
     googleAdSense: boolean;
     npmTracking: boolean;
     serviceWorker: boolean;
-  }
+  },
+  changesUrl: string;
 }
 
 export let getPrivacyPolicy = async (): Promise<string> => {
