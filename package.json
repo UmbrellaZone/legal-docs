@@ -1,5 +1,5 @@
 {
-  "name": "@umbrellazone/legal-docs",
+  "name": "@losslessone_private/lodat-legal",
   "version": "1.0.12",
   "private": false,
   "description": "legal docs for programmatic use",
@@ -20,15 +20,19 @@
   },
   "homepage": "https://gitlab.com/pkunz/legaldocs#README",
   "devDependencies": {
-    "@gitzone/tsbuild": "^2.0.22",
-    "@gitzone/tsrun": "^1.1.12",
-    "@gitzone/tstest": "^1.0.15",
-    "@pushrocks/tapbundle": "^3.0.7",
-    "@types/node": "^10.10.3"
+    "@gitzone/tsbuild": "^2.1.17",
+    "@gitzone/tsrun": "^1.2.8",
+    "@gitzone/tstest": "^1.0.28",
+    "@pushrocks/tapbundle": "^3.2.0",
+    "@types/node": "^13.1.7",
+    "tslint": "^6.0.0-beta0",
+    "tslint-config-prettier": "^1.18.0"
   },
   "dependencies": {
-    "@pushrocks/smartfile": "^6.0.8",
-    "@pushrocks/smartpromise": "^2.0.5",
-    "@tsclass/tsclass": "^2.0.0"
+    "@pushrocks/smartfile": "^7.0.6",
+    "@pushrocks/smartmarkdown": "^2.0.2",
+    "@pushrocks/smartmustache": "^2.0.9",
+    "@pushrocks/smartpromise": "^3.0.6",
+    "@tsclass/tsclass": "^2.0.13"
   }
 }
