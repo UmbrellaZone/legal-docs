@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@pushrocks/smartfile": "^7.0.6",
-    "@pushrocks/smartmarkdown": "^2.0.2",
+    "@pushrocks/smartmarkdown": "^2.0.5",
     "@pushrocks/smartmustache": "^2.0.9",
     "@pushrocks/smartpromise": "^3.0.6",
     "@tsclass/tsclass": "^2.0.13"

@@ -2,11 +2,30 @@ import * as plugins from './lodat-legal.plugins';
 import * as paths from './lodat-legal.paths';
 
 // interfaces
-import { ICompany } from '@tsclass/tsclass';
-import { ITemplateData } from '.';
+import { ITemplateData } from './index';
 
 
 export class LosslessLegalDocs {
+
+  public losslessData: ITemplateData = {
+    company: {
+      name: 'Lossless GmbH',
+      contact: null,
+      foundedDate: {
+        day: 1,
+        month: 1,
+        year: 2014
+      },
+      closedDate: null,
+      status: 'active'
+    },
+    legal: {
+      googleAdSense: true,
+      npmTracking: true,
+      serviceWorker: true
+    },
+    changesUrl: 'https://lossless.gmbh/privacy'
+  };
 
   /**
    * gets the privacy policy by reading and combining the 
@@ -52,25 +71,11 @@ export class LosslessLegalDocs {
   }
 
   public async getLosslessPrivacyPolicy() {
-    return await this.getPrivacyPolicy({
-      company: {
-        name: 'Lossless GmbH',
-        contact: null,
-        foundedDate: {
-          day: 1,
-          month: 1,
-          year: 2014
-        },
-        closedDate: null,
-        status: 'active'
-      },
-      legal: {
-        googleAdSense: true,
-        npmTracking: true,
-        serviceWorker: true
-      },
-      changesUrl: 'https://lossless.gmbh/privacy'
-    });    
+    return this.getPrivacyPolicy(this.losslessData);    
+  }
+
+  public async getLosslessCookiePolicy() {
+    return this.getCookiePolicy(this.losslessData);    
   }
 
 
