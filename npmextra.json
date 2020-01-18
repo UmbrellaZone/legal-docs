@@ -1,7 +1,8 @@
 {
   "npmci": {
     "npmGlobalTools": [],
-    "npmAccessLevel": "private"
+    "npmAccessLevel": "private",
+    "npmRegistryUrl": "verdaccio.lossless.one"
   },
   "gitzone": {
     "module": {
