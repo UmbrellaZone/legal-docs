@@ -14,10 +14,9 @@ Cookies are data packages that can be stored in a browser on a computer browsing
 
 This document also governs technologies that have similarities to cookies. This similarity is the storage of data on devices of users using services and Websites by {{company.name}}. Namely those technologies are:
 
-* Local Storage
-* Session Storage
-* Browser Cache
-* Cache API (as used by Service Workers)
+- Local Storage
+- Session Storage
+- Browser Cache
+- Cache API (as used by Service Workers)
 
 ## Cookies that we use at {{company.name}}
-

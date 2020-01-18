@@ -56,8 +56,8 @@ Diese Vereinbarung unterliegt ausschließlich {{country}} Recht. Ausschließlich
 
 Es wurden keine Nebenabreden getroffen. Änderungen und Ergänzungen dieser Vereinbarung bedürfen der Schriftform.
 
-.…........................... **********\_\_\_**********
+.…........................... \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 Geheimnisnehmer
 
-…............................ **********\_\_\_**********
+…............................ \***\*\*\*\*\***\_\_\_\***\*\*\*\*\***
 Geheimnisträger

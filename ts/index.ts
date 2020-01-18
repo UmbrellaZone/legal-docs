@@ -6,7 +6,7 @@ export interface ITemplateData {
     googleAdSense: boolean;
     npmTracking: boolean;
     serviceWorker: boolean;
-  },
+  };
   changesUrl: string;
 }
 

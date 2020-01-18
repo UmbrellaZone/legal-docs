@@ -1,6 +1,6 @@
 // node native
 import * as path from 'path';
-export { path }
+export { path };
 
 // @pushrocks
 import * as smartfile from '@pushrocks/smartfile';

@@ -2,5 +2,15 @@
   "npmci": {
     "npmGlobalTools": [],
     "npmAccessLevel": "private"
+  },
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "losslessone/npm",
+      "gitrepo": "lodat-legal",
+      "shortDescription": "legal docs for programmatic use",
+      "npmPackagename": "@losslessone_private/lodat-legal",
+      "license": "UNLICENSED"
+    }
   }
 }

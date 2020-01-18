@@ -4,9 +4,7 @@ import * as paths from './lodat-legal.paths';
 // interfaces
 import { ITemplateData } from './index';
 
-
 export class LosslessLegalDocs {
-
   public losslessData: ITemplateData = {
     company: {
       name: 'Lossless GmbH',
@@ -28,21 +26,21 @@ export class LosslessLegalDocs {
   };
 
   /**
-   * gets the privacy policy by reading and combining the 
+   * gets the privacy policy by reading and combining the
    */
-  public async getDirAsMarkdownMustacheTemplate (dirArg: string): Promise<string> {
+  public async getDirAsMarkdownMustacheTemplate(dirArg: string): Promise<string> {
     const fileObject = await plugins.smartfile.fs.fileTreeToObject(dirArg, '*.md');
     let privacyPolicy: string = '';
     for (const smartfile of fileObject) {
       privacyPolicy = privacyPolicy + smartfile.contents.toString() + '\n';
     }
     return privacyPolicy;
-  };
+  }
 
   /**
-   * 
+   *
    */
-  public async getDirAsHtmlTemplate (dirArg: string) {
+  public async getDirAsHtmlTemplate(dirArg: string) {
     const templateString = await this.getDirAsMarkdownMustacheTemplate(dirArg);
     const smartmarkdownInstance = new plugins.smartmarkdown.SmartMarkdown();
     return smartmarkdownInstance.markdownToHtml(templateString);
@@ -50,7 +48,7 @@ export class LosslessLegalDocs {
 
   /**
    * gets the privacy policy as html
-   * @param optionsArg 
+   * @param optionsArg
    */
   public async getPrivacyPolicy(optionsArg: ITemplateData): Promise<string> {
     const privacyPolicyTemplateString = await this.getDirAsHtmlTemplate(paths.privacyPolicyDir);
@@ -61,7 +59,7 @@ export class LosslessLegalDocs {
 
   /**
    * gets the privacy policy as html
-   * @param optionsArg 
+   * @param optionsArg
    */
   public async getCookiePolicy(optionsArg: ITemplateData): Promise<string> {
     const privacyPolicyTemplateString = await this.getDirAsHtmlTemplate(paths.cookiePolicyDir);
@@ -71,12 +69,10 @@ export class LosslessLegalDocs {
   }
 
   public async getLosslessPrivacyPolicy() {
-    return this.getPrivacyPolicy(this.losslessData);    
+    return this.getPrivacyPolicy(this.losslessData);
   }
 
   public async getLosslessCookiePolicy() {
-    return this.getCookiePolicy(this.losslessData);    
+    return this.getCookiePolicy(this.losslessData);
   }
-
-
 }
