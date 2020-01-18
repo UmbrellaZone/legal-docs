@@ -1,6 +1,6 @@
 {
   "name": "@losslessone_private/lodat-legal",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "private": false,
   "description": "legal docs for programmatic use",
   "main": "dist/index.js",
