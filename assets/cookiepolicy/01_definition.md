@@ -10,5 +10,3 @@ This document also governs technologies that have similarities to cookies. This 
 - Session Storage
 - Browser Cache
 - Cache API (as used by Service Workers)
-
-## Cookies that we use at {{company.name}}
